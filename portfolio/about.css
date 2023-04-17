@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about{
+    height: 100vh;
+    background-image: linear-gradient(to bottom right,#766eff,#88eaf6 );
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+.d1{
+    width: 50%;
+    padding: 4vh 4vw;
+}
+a{
+    padding-right: 2vw;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    
+}
+.d2{
+    display: flex;
+    justify-content: flex-end; 
+    width: 50%;
+    padding: 4vh 4vw;
+}
+svg{
+    height: 25px;
+}
+.content{
+    background-color: beige;
+    height: 35vh;
+    width: 80vw;
+    color:black;
+    align-self: center;
+    border-radius: 30px;
+    margin: 50px 0;
+    
+
+}
+.content h2{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px
+}
+.content p{
+    text-align: center;
+    font-size: 18px;
+    margin: 30px 300px;
+}
+.education{
+    background-color: rgb(177, 220, 98);
+    width: 80vw;
+    align-self: center;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+}
+.eduin{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    padding-top: 20px;
+}
+.education h2{
+    font-size: 40px;
+}
+.education h5{
+    font-size: 25px;
+}
+.education p{
+    font-size: 24px;
+}
+.spacer1{
+    height: 65px;
+
+}
+.leftp{
+    padding:0 80px;
+}
+.rightp{
+    padding: 0 80px;
+}
+
+footer{
+    text-align: center;
+}
+
