@@ -1,0 +1,120 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:#131212;
+    color: white;
+}
+header{
+    height: 100px;
+    margin-top: 10px;
+}
+header button{
+    width: 600px;
+    height: 40px;
+    border-radius: 50px;
+    opacity: 0.5;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+}
+.login{
+    display: flex;
+}
+.login i{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.leftside{
+    width: 20vw;
+}
+.leftside h3{
+    font-size: 27px;
+    text-align: center;
+    margin: 10px  0;
+}
+.leftside hr{
+    margin: 10px 0;
+    width: 90%;
+}
+.logoo li{
+    margin-top: 15px;
+}
+.sec{
+    margin: 10px;
+    display: flex;
+}
+
+
+.logodetail ul{
+    list-style: none;
+    font-size: 25px;
+}
+.logodetail li{
+    margin: 10px 0;
+}
+
+
+.rightside{
+    width: 100%;
+}
+.recomend{
+    display: flex;
+    justify-content: space-around;
+
+}
+.recomend button{
+    padding: 3px;
+    font-size: 25px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-weight: 300;
+    opacity: 0.5;
+
+}
+.videosec{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    margin: 20px;
+}
+
+
+.card img{
+    width:450px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+
+.logo img{
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+}
+.detail{
+    width: 100%;
+    display: flex;
+    font-size: 23px;
+    margin-top: 9px;
+}
+.data{
+    margin-left: 10px;
+}
+.vdetail ul{
+    list-style: none;
+    display: flex;
+    font-size: 15px;
+}
+.vdetail li{
+    margin: 0 3px;
+}

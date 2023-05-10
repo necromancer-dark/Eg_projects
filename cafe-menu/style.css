@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Pathway+Extreme&display=swap');
+:root{
+    --menucolor:#af702c;
+    --kanit:'Kanit', sans-serif;
+    --extreme:'Pathway Extreme', sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+
+
+body{
+    background-image:url(coffe-beans.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.menu{
+    background-color: var(--menucolor);
+    background-color: rgba(175, 112, 44, 0.9);
+    width: 40vw;
+
+}
+h1{
+    text-align: center;
+    font-family: var(--kanit);
+    margin: 20px 0;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    font-family: var(--extreme);
+    font-size: 25px;
+}
+
+hr{
+    margin: 20px 50px;
+    border: 2px solid #ac1801;
+}
+h4{
+    text-align: center;
+    font-family: var(--kanit);
+    font-size: 35px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 40px;
+    
+}
+.submenu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+}
+.menuitem{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+}
+.itemcost{
+    width:50%;
+    display: flex;
+    justify-content: end;
+}
+ul{
+    list-style: none;
+    margin: 0 50px;
+}
+li{
+    margin: 10px 0;
+    font-size: 25px;
+    font-family: var(--extreme);
+    font-weight:500;
+}
+.footer{
+    margin: 30px 0;
+    font-size: 20px;
+}
