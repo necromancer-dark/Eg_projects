@@ -1,72 +1,33 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Calculator</title>
-    <style>
-      body {
-        background-color: #f2f2f2;
-      }
-      
-      #calculator {
-        background-color: #ccc;
-        border: 1px solid #999;
-        border-radius: 5px;
-        width: 200px;
-        margin: 0 auto;
-        padding: 10px;
-      }
-      
-      #result {
-        font-size: 20px;
-        text-align: right;
-        border: none;
-        background-color: #f2f2f2;
-        width: 100%;
-        height: 30px;
-        margin-bottom: 10px;
-        padding-right: 10px;
-      }
-      
-      button {
-        background-color: #fff;
-        border: 1px solid #999;
-        border-radius: 5px;
-        width: 40px;
-        height: 40px;
-        margin-right: 5px;
-        margin-bottom: 5px;
-        font-size: 18px;
-      }
-      
-      button:hover {
-        background-color: #f2f2f2;
-        cursor: pointer;
-      }
-      
-      button:active {
-        background-color: #ccc;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="calculator">
-      <input type="text" id="result" disabled>
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button>+</button>
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button>-</button>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <div class="display"><p>00.00</p></div>
+    <div class="buttons">
       <button>1</button>
       <button>2</button>
       <button>3</button>
-      <button>*</button>
+      <button class="fun">+</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button class="fun">-</button>
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button class="fun">*</button>
+      <button class="fun">/</button>
       <button>0</button>
-      <button>.</button>
-      <button>/</button>
-      <button>=</button>
+      <button class="fun">.</button>
+      <button class="clear">c</button>
     </div>
-  </body>
+  </div>
+</body>
 </html>
